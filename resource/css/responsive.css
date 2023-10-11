@@ -1,0 +1,1524 @@
+@charset "utf-8";
+
+.mo {display:none}
+
+@media (min-width: 1920px){
+	.interviewWrap, .groupWrap {margin-left:11%}
+}
+
+@media (max-width: 1820px){
+	/*************************************/
+	/* footer */
+	/*************************************/
+	footer {padding:60px 80px}
+	footer .inner {padding-top:50px}
+	footer .inner ul {margin-left:0; display:block}
+	footer p {padding-left:0}
+
+	/*************************************/
+	/* 메인 */
+	/*************************************/	
+	.lifeWrap .life .lbox h4 {font-size:26px}
+	.lifeWrap .life .lbox p {font-size:20px}
+
+	/*************************************/
+	/* KT 라이프 */
+	/*************************************/
+	/*.companySlide .companysilder .innerBox {width: 180px; height: 180px;}*/
+
+}
+/********************************************************************************************************************/
+													/* 해상도 1440 이하 */
+/********************************************************************************************************************/
+@media (max-width: 1440px){
+
+	#backtotop {right: 77px;}
+	.promotionBanner .btnClose {right:40px}
+
+	/*************************************/
+	/* 메인 */
+	/*************************************/
+	header.main nav {padding:0 40px}
+	header.main .swiper.msilder .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets {left:40px}
+	header.main .swiper.msilder .text {left:100px}
+	header.main .swiper.msilder .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+		left: 100px !important;
+	}
+	.searchWrap, .employmentWrap, .lifeWrap {width:calc(100% - 80px)}
+	.interviewWrap, .groupWrap {margin-left:40px}
+
+	.lifeWrap .life .lbox {width:calc((100% / 4) - 15px)}
+
+	.employmentWrap .employment .ebox {padding:3%;}
+
+	/*************************************/
+	/* 채용공고 */
+	/*************************************/
+	header.sub nav {padding:0 40px 0}
+	.container.sub {width: calc(100% - 14%);}
+	.employIngWrap .content {width:calc(100% - 400px);}
+	.employIngWrap .aside {position:absolute; top:0; right:0; width:340px}
+
+	.interviewWrap.type1 .swiper.intersilder .innerBox {width:358px; height:245px}
+
+	/*************************************/
+	/* faq */
+	/*************************************/
+	.inquirybox {padding: 46px 50px 38px; }
+
+	/*************************************/
+	/* KT 라이프 */
+	/*************************************/
+	.recruitmentSlide .recruitsilder, .recruitmentSlide h3 {width: calc(100% - 14%);}
+
+	.lifeViewWrap .itemWrap.type1:after, .lifeViewWrap .itemWrap.type2:after {height:210px}
+	.lifeViewWrap .itemWrap .item .img {height: 413px;}
+	.lifeViewWrap .itemWrap .item.text h3 {font-size: 38px}
+	.lifeViewWrap .itemWrap .item.text p {font-size: 28px; margin:18px 0 100px}
+	.lifeViewWrap .itemWrap .item.text ul li {font-size: 24px}
+	/*.companySlide .companysilder .innerBox {width: 160px;height: 160px}*/
+
+	/*************************************/
+	/* KT 인터뷰 */
+	/*************************************/
+	.interviewListWrap .grid-item .text h4 { font-size: 30px; margin-bottom:10px}
+	.interviewListWrap .grid-item .text span {font-size: 20px;}
+	.interviewDetailWrap, .imgWrap {width: calc(100% - 14%);}
+	.interviewDetailWrap dl dt {width: 280px;}
+
+	/*************************************/
+	/* KT 비전 */
+	/*************************************/
+	.imgBarArea {height:303px}
+	.visionViewWrap .itemWrap .item .img {height:411px;}
+	.visionViewWrap .itemWrap .item.text {padding:3% 6.5%}
+	.visionViewWrap .itemWrap .item.text h3 {font-size: 40px; letter-spacing: -0.88px; font-weight:800;}
+	.visionViewWrap .itemWrap .item.text h4 {font-size: 28px;  line-height: 1.69; letter-spacing: -0.64px; font-weight:700; }
+	.visionViewWrap .itemWrap .item.text p { font-size: 18px; color:#333; line-height: 1.45; letter-spacing: -0.44px; }
+}
+
+/********************************************************************************************************************/
+													/* 해상도 1342 이하 */
+/********************************************************************************************************************/
+@media (max-width: 1342px){
+	.interviewWrap .swiper.intersilder .swiper-button-next {
+		border-top-right-radius: 12px;
+		border-bottom-right-radius: 12px;
+	}
+}
+
+/********************************************************************************************************************/
+													/* 해상도 1280 이하 */
+/********************************************************************************************************************/
+@media (max-width: 1280px){	
+
+	/*************************************/
+	/* common */
+	/*************************************/
+	#backtotop {bottom: 258px; right: 67px;}
+
+
+	/*************************************/
+	/* 메인 */
+	/*************************************/
+	.employmentWrap .employment .ebox {padding:30px 20px 20px;}
+	.employmentWrap .employment .ebox h4 {font-size:16px;}
+	.employmentWrap .employment .ebox h5 {font-size:18px;}
+	.employmentWrap .employment .ebox .d-day {top: 20px; right: 20px; font-size:16px; height: 27px; padding:0 10px}
+	.employmentWrap .employment .ebox .date {font-size: 18px;}
+
+	.lifeWrap .life .lbox h4 {font-size: 28px;}
+	.lifeWrap .life .lbox p {font-size: 16px;}
+
+	.groupWrap .slider_tab_cont .tabs {margin-left:55px}
+
+	.interviewWrap .swiper.intersilder .swiper-pagination, .groupWrap .slider_tab_cont .swiper.groupsilder .swiper-pagination {width:calc(100% - 40%)}
+
+	.searchWrap {width: calc(100% - 80px); padding:40px 40px 34px}
+	.searchWrap ul {width: calc(100% - 60px);}
+	.searchWrap button {right:30px}
+	.searchWrap ul li span {font-size: 20px;}
+	.searchWrap ul li select, .searchWrap ul li input {font-size:20px}
+	.searchWrap ul li input {width: calc(100% - 80px);}
+
+	.lifeWrap .life {flex-wrap: wrap; }
+	.lifeWrap .life .lbox {width: calc((100% / 2) - 15px); flex: 0 1 48%; }
+	.lifeWrap .life .lbox p {margin-bottom:25px}
+
+
+	/*************************************/
+	/* 채용공고 */
+	/*************************************/
+	.searchSubWrap {padding:80px 30px 74px}
+	button.submit {right:30px}
+
+	.opt li {font-size:20px}
+	.interviewWrap.type1 .swiper.intersilder .innerBox {width:317px; height:210px}
+
+	/*************************************/
+	/* faq */
+	/*************************************/
+	button.inquiry {width: 280px; background-position:center left 20px}
+	button.inquiry:after {right:20px}
+
+	/*************************************/
+	/* 1:1문의 */
+	/*************************************/
+	.consent label span {display:block}
+
+	/*************************************/
+	/* KT 라이프 */
+	/*************************************/
+	.titleArea.type3 {padding: 245px 0 100px;}
+
+	.lifeListWrap .item.nocont h3 br {display:block}
+
+	.titleArea.type3 h2 {font-size: 44px;}
+	.lifeViewWrap .itemWrap.type1:after, .lifeViewWrap .itemWrap.type2:after {height:180px}
+	.lifeViewWrap .itemWrap .item .img {height: 369px;}
+	.lifeViewWrap .itemWrap .item.text h3 {font-size: 34px}
+	.lifeViewWrap .itemWrap .item.text p {font-size: 24px; margin: 18px 0 50px;}
+	.lifeViewWrap .itemWrap .item.text ul li {font-size: 20px}
+	.lifeViewWrap .itemWrap .item.text ul li:before {top:12px}
+	/*.companySlide .companysilder .innerBox {width:140px;height: 140px}*/
+
+	/*************************************/
+	/* KT 인터뷰 */
+	/*************************************/
+	.interviewListWrap .grid-item .text h4 { font-size: 26px; margin-bottom:10px}
+	.interviewListWrap .grid-item .text span {font-size: 16px;}
+
+	.titleArea.type5 h2 {font-size: 40px;}
+	.titleArea.type5 p {font-size:28px; margin: 30px 0 0;}
+
+	.interviewDetailWrap dl dt {font-size: 40px;}
+	.interviewDetailWrap dl dd .qbox h4 {font-size: 28px; margin-bottom: 20px;}
+	.interviewDetailWrap dl dd .qbox p {font-size: 20px;}
+
+	.titleArea.type5 p span.company:after, .titleArea.type5 p span.job:after {height:23px}
+
+	/*************************************/
+	/* KT 비전 */
+	/*************************************/
+	.imgBarArea {height:269px}
+	.visionViewWrap .itemWrap .item .img {height:366px}
+	.visionViewWrap .itemWrap .item.text {padding: 3% 2% 3% 3%;}
+	.visionViewWrap .itemWrap .item.text h3 {font-size: 38px}
+	.visionViewWrap .itemWrap .item.text h4 {font-size: 26px; letter-spacing: -2px;}
+	.visionViewWrap .itemWrap .item.text p { font-size: 16px}
+}
+
+
+/********************************************************************************************************************/
+												/* 해상도 1024 이하 */
+/********************************************************************************************************************/
+@media (max-width: 1024px) {
+
+	/*************************************/
+	/* common */
+	/*************************************/
+	#backtotop {right: 28px;}
+
+	header.main nav .item:nth-child(1), header.sub nav .item:nth-child(1) {width:120px}
+	header.main nav .item .logo, header.sub nav .item .logo, header.main nav.on .item .logo {background-size:120px auto}
+	header.main nav .item .gnb li a, header.sub nav .item .gnb li a {font-size:18px;}
+	header.main nav .item .q-menu > li > a, header.sub nav .item .q-menu > li > a {font-size:16px;}
+	header.main nav .item:nth-child(3), header.sub nav .item:nth-child(3)  {width: 150px;}
+
+	.titleArea h2 {letter-spacing:-1.4px; font-size:46px}
+	.titleArea.type4 {padding:100px 0 50px }
+	.titleArea.type4 h3 span {font-size:50px}
+	.titleArea.type4 p {font-size:28px; margin:50px 0 100px}
+
+	/*************************************/
+	/* 메인 */
+	/*************************************/
+	header.main, header.main .swiper.msilder, header.main .swiper.msilder .innerBox {height:458px;}
+	header.main .swiper.msilder .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets {transform: translate3d(0px,-50%,0);}
+	header.main .swiper.msilder .text {top: 186px;}
+	header.main .swiper.msilder .text h2 {font-size: 30px; line-height: 1.33; letter-spacing: -1.5px;}
+	header.main .swiper.msilder .text h2 span {font-size: 30px; letter-spacing: -0.6px;}
+	header.main .swiper.msilder .text h2 span.imgT {width:190px; height:36px; margin-left:10px; background-size:190px auto; vertical-align:28px;}
+	header.main .swiper.msilder .text p {font-size: 30px; }
+
+	.container {padding-top:100px}
+	.interviewWrap, .lifeWrap, .groupWrap {margin-top:100px}
+
+	.searchWrap {top: -30px; border-radius:40px; height:inherit;  padding:18px}
+	.searchWrap button {width:40px; height:40px; background-size:20px auto; right:10px; bottom:10px;}
+	.searchWrap ul {display:none}
+	/*.searchWrap ul {width: calc(100% - 100px); flex-wrap: wrap; justify-content: space-between;}
+	.searchWrap ul li {flex: 0 1 48%; margin:5px 0}*/
+
+	.s-title {margin-bottom:54px}
+
+	/* 주요채용공고 */
+	.employmentWrap .employment .ebox {width: calc((100% / 2) - 24px); padding:24px;}
+	.employmentWrap .employment .ebox h4, .employmentWrap .employment .ebox h5 {font-size: 20px}
+
+	.interviewWrap .swiper.intersilder .text h2 {font-size:24px}
+	.interviewWrap h4 {margin-bottom:30px}
+
+	.lifeWrap .life {flex-wrap: wrap; }
+	.lifeWrap .life .lbox {width: calc((100% / 2) - 15px); flex: 0 1 48%; }
+	.lifeWrap .life .lbox p {margin-bottom:25px}
+
+	.groupWrap {width: calc(100% - 80px); margin:75px auto 0}
+	.groupWrap .slider_tab_cont .tabs {margin:30px auto}
+	.groupWrap .slider_tab_cont .tabs li {width:25%; line-height: 46px; font-size:18px}	
+/*	.groupWrap .slider_tab_cont  .swiper.groupsilder .swiper-slide {flex-shrink: 0;}
+	.groupWrap .slider_tab_cont  .swiper.groupsilder .innerBox {flex: 0 1 45%; width:inherit; height:248px;  padding: 52px 24px 34px;}*/
+
+	h3.title {font-size: 32px; }
+
+	/*************************************/
+	/* 채용공고 */
+	/*************************************/
+	header.sub nav {padding:0 3% 0}
+	.container.sub {width: calc(100% - 10%);}
+	.employIngWrap .content {width:calc(100% - 350px);}
+	.employIngWrap .aside {position:absolute; top:0; right:0; width:300px}
+
+	.searchSubWrap {padding:80px 50px 74px}	
+	.searchSubWrap ul {width: calc(100% - 100px); flex-wrap: wrap; justify-content: space-between; margin-top:30px}
+	.searchSubWrap ul li {flex: 0 1 48%; margin:5px 0; }
+	.searchSubWrap ul li:last-child {flex-grow: 1;}
+	button.submit {right:50px; bottom:46px}
+
+	.employIngWrap .employment .ebox {padding:25px;}
+	.employIngWrap .employment .ebox h4 {font-size:24px; height:70px}
+	.employIngWrap .employment .ebox .d-day {font-size:18px; height: 38px; line-height: 36px;}
+	.aside .recentList .ebox h4, .aside .recentList .ebox h5 {font-size:20px}
+	button.share, button.share-copylink  {bottom:25px; right:25px}
+	button.more {margin-top:10px}
+
+	.container.view {width: calc(100% - 12%);}
+	.careersViewWrap .detail dd .detail-subject {width: calc(100% - 10%);}
+	.interviewWrap.type1 .swiper.intersilder .innerBox {width:294px; height:195px}
+
+	/*************************************/
+	/* faq */
+	/*************************************/
+	.inquirybox p {width:calc(100% - 300px)}
+	.inquirybox p span {display:block}
+
+
+	/*************************************/
+	/* 1:1문의 */
+	/*************************************/
+	.captchaWrap .capthcha {margin-right:10px}
+	.captchaWrap button {width:initial; padding:0 10px; height: 32px;}
+	.captchaWrap button + button {margin-left:10px}
+
+
+	/*************************************/
+	/* KT 라이프 */
+	/*************************************/	
+	.lifeListWrap .item {padding-right:100px}
+	.lifeListWrap .item:after {bottom: 60px; right:30px;}
+	.lifeListWrap .item.nocont:after {right:30px}
+	.lifeListWrap .item.nocont h3 br {display:block}
+	.lifeListWrap .item h3 {font-size: 26px; margin-bottom:48px}
+	.lifeListWrap .item li {font-size: 16px; letter-spacing:-1px}
+
+	.recruitmentSlide .swiper.recruitsilder .swiper-pagination {width: calc(100% - 14%);}
+
+	/*************************************/
+	/* KT 인터뷰 */
+	/*************************************/
+	.interviewListWrap .tabs {margin:0 0 30px}
+	.interviewListWrap .tabs li {font-size: 18px; }
+	.interviewListWrap .grid-item .text {margin:20px 0 50px}
+	.interviewListWrap .grid-item .text h4 { font-size: 20px; margin-bottom:5px}
+	.interviewListWrap .grid-item .text span {font-size: 16px;}
+	.interviewListWrap .grid-item .text span.company:after {height:11px}
+
+	.container.sub.life {width: calc(100% - 100px);}
+	.titleArea.type3 {padding:245px 0 100px}
+	.lifeViewWrap .itemWrap.type1:after, .lifeViewWrap .itemWrap.type2:after {height:160px; bottom:5%}
+	.lifeViewWrap .itemWrap .item .img {height: 294px;}
+	.lifeViewWrap .itemWrap .item.text {padding: 50px 50px;}
+	.lifeViewWrap .itemWrap .item.text h3 {font-size: 24px}
+	.lifeViewWrap .itemWrap .item.text p {font-size: 20px;}
+	.lifeViewWrap .itemWrap .item.text ul li {font-size: 18px}
+	.lifeViewWrap .itemWrap .item.text ul li:before {top:10px}
+	/*.companySlide .companysilder .innerBox {width:110px;height: 110px}*/
+
+	.interviewDetailWrap dl dd .qbox h4 {padding-left:45px}
+	.interviewDetailWrap dl dt {font-size: 34px; width: 200px;}
+	.interviewDetailWrap dl dd .qbox h4 {font-size: 20px; margin-bottom: 20px; padding-left: 42px}
+	.interviewDetailWrap dl dd .qbox h4:before {width:22px; height:22px; background-size:22px auto; top:4px }
+	.interviewDetailWrap dl dd .qbox h4:after {width:22px; height:11px; top: 16px;}
+
+	.interviewDetailWrap dl dd .qbox p {font-size: 15px;  line-height: 1.43;}
+
+
+	/*************************************/
+	/* KT 비전 */
+	/*************************************/
+	.visionViewWrap .itemWrap .item .img {height:293px}
+	.visionViewWrap .itemWrap .item.text {padding:3% 2%}
+	.visionViewWrap .itemWrap .item.text h3 {font-size: 34px}
+	.visionViewWrap .itemWrap .item.text h4 {font-size: 22px; margin:20px 0 12px; letter-spacing: -2px;}
+	.visionViewWrap .itemWrap .item.text p { font-size: 16px}
+
+	.groupWrap .swiper.groupsilder .swiper-button-prev, .groupWrap .swiper.groupsilder .swiper-button-next {
+		width: 30px;
+		height: 270px;
+		background: url(/resource/images/main/ep_arrow-right.svg) no-repeat center;
+		background-size: 30px 30px;
+		top: 23px;
+	}
+
+	/*************************************/
+	/* 개인정보처리방침 */
+	/*************************************/
+	.privatePolicyWrap dt {padding: 50px 0 40px;}
+	.privatePolicyWrap dt h2 {font-size: 30px;}
+	.privatePolicyWrap dt .item select {font-size:14px; height:40px; width:150px}
+
+	.privatePolicyWrap dd {}
+	.privatePolicyWrap dd h3 {font-size: 20px;}
+	.privatePolicyWrap dd p {font-size: 16px;}
+	.privatePolicyWrap dd li {font-size: 14px;}
+	.privatePolicyWrap dd table td {font-size: 14px;}
+
+	/* 2023-02-15 개인정보처리방침 */
+	.private-policy-banner .inner {
+		flex-wrap: wrap;
+		width: calc(100% - 20%);
+	}
+	.private-policy-banner .inner .new {
+		width: 100%;
+	}
+
+	.private-policy-banner .inner .private-policy-txt {
+		padding-left: 0;
+	}
+	.private-policy-banner .inner .private-link {
+		width: 100%;
+		margin-top: 10px;
+		font-size: 13px;
+		text-decoration: underline;
+	}
+	.private-policy-banner .inner .private-link .btn-line {
+		display: none;
+	}
+
+	.private-change-record-list {
+	}
+	.private-change-record-list .private-change-record-item {
+		border-bottom: 1px solid #eee;
+	}
+	.private-change-record-list .private-change-record-item a {
+		padding: 25px 0;
+		flex-direction: column-reverse;
+		align-items: baseline;
+	}
+	.private-change-record-list .private-change-record-item .new {
+		font-size: 13px;
+		order: 1;
+		margin-bottom: 3px;
+	}
+	.private-change-record-list .private-change-record-item .tit {
+		font-size: 18px;
+		max-width: 100%;
+		text-overflow: initial;
+		max-width: auto;
+		overflow: initial;
+		white-space: normal;
+		margin-top: 10px;
+	}
+	.private-change-record-list .private-change-record-item .date {
+		margin-left: initial;
+		text-align: left;
+		font-size: 18px;
+		font-weight: 700;
+	}
+
+	.private-date {
+		margin-top: 30px;
+		font-size: 16px;
+		font-weight: 700;
+		text-align: left;
+		font-weight: 900;
+	}
+	.private-tit {
+		text-align: left;
+		margin-top: 5px;
+		margin-bottom: -80px !important;
+		padding: 0 0;
+		word-break: keep-all;
+		font-size: 20px !important;
+	}
+
+	/*************************************/
+	/* footer */
+	/*************************************/
+	footer {padding: 60px 5%;	}
+
+}
+
+/********************************************************************************************************************/
+												/* 해상도 900 이하 */
+/********************************************************************************************************************/
+@media (max-width: 900px) {
+	header.main nav .item .gnb, header.sub nav .item .gnb {width:450px; }
+}
+
+/********************************************************************************************************************/
+												/* 해상도 820 이하 */
+/********************************************************************************************************************/
+
+@media (max-width: 820px) {
+	.pc {display:none !important}
+	.mo {display:block !important}
+
+	.promotionBanner {height: 40px;}
+	.promotionBanner .bannerLink {font-size: 14px; font-weight:700; }
+	.promotionBanner .btnClose {right:20px; width:20px; height:20px; background-size:20px auto;}
+
+	/* 2023-05-31 모바일 페이지네이션 일괄 안보이게 처리 */
+	.pagination.mo { display: none !important;}
+
+	/*************************************/
+	/* 레이어팝업 */
+	/*************************************/
+	.poupu-wrap {}
+	.poupu-wrap .popup {display:none; position:absolute; left:50%; transform:translateX(-50%); top:10%; padding-top:100px; margin-top: 0; width: 80% !important;}
+	.poupu-wrap .popup + .popup {margin:0}
+	.poupu-wrap .popup img {width: 100%;}
+	/* .poupu-wrap .popup .close-wrap {width: 100%; padding:0 0 0 20px; box-sizing: border-box; background: #f5f5f5;  display: flex; justify-content: space-between; } */
+	.poupu-wrap .popup .close-wrap .close {width:53px; height:53px; background:#999 url(/resource/images/common/pop_close.svg) no-repeat center; font-size:0; text-indent: -9999px; }
+	.poupu-wrap .popup .close-wrap .close:hover {background-color: #333;}
+	.poupu-wrap .popup .close-wrap label {font-size: 20px; color: #000; }
+	.poupu-wrap .popup .close-wrap input[type="checkbox"] {width:28px; height:28px; border-radius:2px; border: solid 1px #999; vertical-align:-6px; margin-right:8px }
+	.poupu-wrap .popup_active {display:block;}
+	.poupu-wrap .dim {width:100%; height:100%; position:fixed; z-index:9998; background-color: rgba(0, 0, 0, 0.4);}
+
+	.popupslider .swiper-pagination-bullet {
+		background: var(--swiper-pagination-bullet-inactive-color,#fff);
+		opacity: var(--swiper-pagination-bullet-inactive-opacity, .4);
+	}
+	.popupslider .swiper-pagination-bullet-active {
+		background: var(--swiper-pagination-bullet-inactive-color,#fff);
+		opacity: var(--swiper-pagination-bullet-inactive-opacity, 1);
+	}
+	.popupslider .swiper-pagination {
+		text-align: left;
+		left: 5px !important;
+		top: 70px !important;
+		padding-left: 0;
+	}
+
+	/*************************************/
+	/* header */
+	/*************************************/
+	header.main nav {padding-top:18px}
+	header.main nav .item .gnb, header.main nav .item .q-menu,
+	header.sub nav .item .gnb, header.sub nav .item .q-menu	{display:none}
+
+	header.sub nav .item:nth-child(3) {width:inherit}
+	.burger {display:flex; position:absolute; right:20px;}
+
+	header.sub nav .strip div, header.sub nav .burger.over .strip div, .burger.over .strip div {background:#000;}
+
+	/*************************************/
+	/* 메인 */
+	/*************************************/
+	header.main {padding-top:56px; height:356px; box-sizing:border-box}
+
+	header.main .swiper.msilder1, header.main .swiper.msilder1 .innerBox {height:300px}
+	header.main nav { height: 56px;  padding: 0 20px;  background-color: #fff;}
+	header.main nav .item .logo, header.sub nav .item .logo, header.main nav.on .item .logo, header.sub nav.on .item .logo {width:92px; height:20px; background: url(/resource/images/common/logo.png) no-repeat center left / contain}
+
+	header.main .swiper.msilder1 {width:100%;}
+	header.main .swiper.msilder1 .text {position:absolute; top:50px; left:20px}
+	header.main .swiper.msilder1 .text h2 {font-size:30px;line-height: 1.33; letter-spacing: -1.5px; color:#fff;  font-weight:300; }
+	header.main .swiper.msilder1 .text h2 span {font-size:30px; letter-spacing: -0.6px; color:#fff; font-weight:700; display:block}
+	header.main .swiper.msilder1 .text h2 span.imgT {margin-left: 1.6px; font-size: 0; width:160px; height:36px; text-indent: -9999px; background: url(/resource/images/main/digico.png) no-repeat center; background-size:160px auto; vertical-align:28px;}
+	header.main .swiper.msilder1 .innerBox.m-visual01 {background:url(/resource/images/main/main_visual_m_01.jpg) no-repeat center; background-size:cover}
+	header.main .swiper.msilder1 .innerBox.m-visual02 {background:url(/resource/images/main/main_visual_m_02.png) no-repeat center; background-size:cover}
+	header.main .swiper.msilder1 .innerBox.m-visual03 {background:url(/resource/images/main/main_visual_m_03.png) no-repeat center; background-size:cover}
+
+	header.main .swiper.msilder1 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+		bottom:inherit; top:44px; left:55px
+	}
+	header.main .swiper.msilder1 .swiper-pagination-bullet {
+		background: var(--swiper-pagination-bullet-inactive-color,#fff);
+		opacity: var(--swiper-pagination-bullet-inactive-opacity, .4);
+	}
+	header.main .swiper.msilder1 .swiper-pagination-bullet-active {
+		background: var(--swiper-pagination-bullet-inactive-color,#fff);
+		opacity: var(--swiper-pagination-bullet-inactive-opacity, 1);
+	}
+	header.main .swiper.msilder1 .swiper-pagination {text-align:left; padding-left:16px; left: 5px !important; top: auto; bottom: 100px;}
+
+	.container {margin-bottom:0;}
+
+	.searchWrap, .employmentWrap, .lifeWrap {width: calc(100% - 40px);}
+	.interviewWrap, .lifeWrap, .groupWrap {width: calc(100% - 40px); margin:70px auto 0; position:relative}
+
+	.searchWrap h3 {font-size: 16px;}
+
+	h3.title {font-size: 24px;}
+	h3.title span.total:after {display:none}
+	h3.title button {vertical-align:1px}
+	h3.title button.type1 {font-size:0}
+	h3.title button:after {width:16px; height:16px; background-size:16px auto; margin-left:2px;}
+	h3.title button.type1:after {width:16px; height:16px; background-size:16px auto; margin-left:2px;}
+
+	h3.title span.total, h3.title span.total em {font-size:16px}
+	h3.title span.total {padding-right:0; vertical-align: 2px; margin-left:0;}
+
+	.s-title {font-size:14px; letter-spacing: -0.28px; margin-bottom:24px}
+	.s-title.type1 {}
+
+	.employmentWrap .employment {flex-wrap: wrap;}
+	.employmentWrap .employment .ebox {width: calc((100% / 2) - 8px); padding:16px}
+	.employmentWrap .employment .ebox h4, .employmentWrap .employment .ebox h5 {font-size:16px}
+	.employmentWrap .employment .ebox p {margin-top:0;}
+
+	.employmentWrap .employment .ebox .d-day {position:static; font-size: 15px; color: #ed1b23; font-weight:800; background-color:transparent; width:inherit; height:inherit; border:0; padding:0}
+	.employmentWrap .employment .ebox .d-day:after {content:''; display:inline-block; width:1px; height:10px; opacity: 0.2; background-color: #000; margin-left:8px}
+	.employmentWrap .employment .ebox .date {font-size:15px; margin-left:8px}
+	.employIngWrap .employment .ebox button.share,
+	.employIngWrap .employment .ebox button.share-copylink {position:absolute; bottom:inherit; top:13px}
+
+
+	/*.interviewWrap .swiper.intersilder .innerBox {width:373px; height:227px}*/
+	.interviewWrap .swiper.intersilder .innerBox .img
+	.interviewWrap .swiper.intersilder .innerBox .text {padding:20px 28px;}
+	.interviewWrap .swiper.intersilder .text span {font-size: 16px}
+	.interviewWrap .swiper.intersilder .text span.company {font-size: 14px}
+	.interviewWrap .swiper.intersilder .text h2 {font-size:18px; font-weight:800}
+	.interviewWrap .swiper.intersilder .text p {font-size:13px}
+	.interviewWrap .swiper.intersilder .swiper-button-prev, .interviewWrap .swiper.intersilder .swiper-button-next {
+		background: 0 none;
+		width: 0;
+		height: 0;
+	}
+	.interviewWrap .swiper.intersilder .swiper-pagination,
+	.lifeWrap .swiper.lifesilder .swiper-pagination,
+	.groupWrap .slider_tab_cont .swiper.groupsilder .swiper-pagination,
+	.recruitmentSlide .swiper.recruitsilder .swiper-pagination {width:calc(100% - 60%); margin:29px auto 10px}
+
+	.pagination {position:absolute; bottom:0; right:0; }
+	.pagination span {font-size:12px; letter-spacing: -0.24px; color:#ababab}
+	.pagination span em {color:#000; font-weight:800}
+
+	.lifeWrap .swiper.lifesilder {margin-top:24px}
+	/*.lifeWrap .swiper.lifesilder .swiper-slide {flex-shrink: 1;}
+	.lifeWrap .swiper.lifesilder .innerBox {width:320px;}*/
+	.lifeWrap .swiper.lifesilder .innerBox .img {width:100%; /*height:217px;*/ border-radius:15px; }
+	.lifeWrap .swiper.lifesilder .innerBox .img img {width:100%; height:100%}
+	.lifeWrap .swiper.lifesilder .innerBox .text {}
+	.lifeWrap .swiper.lifesilder .innerBox .text h2 {display:block; font-size:20px; font-weight:800; letter-spacing: -0.4px; color: #000; padding:5px 0;  border-bottom:1px solid #cfcfcf}
+	.lifeWrap .swiper.lifesilder .innerBox .text p {font-size:14px; font-weight: normal; line-height: 1.5; letter-spacing: -0.28px; color: #333; margin-top:8px}	
+
+	.lifeWrap .swiper.lifesilder .swiper-pagination {
+		position: relative;
+		height: 4px;
+		background: #eaeaea;
+	}
+	.lifeWrap .swiper.lifesilder .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {background:#000}
+
+	.interviewWrap .swiper.intersilder .swiper-button-prev:hover, .interviewWrap .swiper.intersilder .swiper-button-next:hover {
+		background-color: transparent;
+	}
+
+	.groupWrap {
+		margin:70px 0 0;
+		width:100%; box-sizing:border-box;
+		padding: 56px 20px 88px;
+		background-color: #f7f7f7;
+	}
+	.groupWrap .slider_tab_cont .tabs {margin:16px 0 24px}
+	.groupWrap .slider_tab_cont .tabs li {font-size:16px; border:0; width:inherit; margin-left:16px; line-height: 30px; color:#000; font-weight:800}
+	.groupWrap .slider_tab_cont .tabs li:first-child {margin-left:0}
+	.groupWrap .slider_tab_cont .tabs li.active {border:0; border-bottom:2px solid #ed1b23; color:#ed1b23}
+
+	.groupWrap .slider_tab_cont .swiper.groupsilder .swiper-slide {width:initial}
+	.groupWrap .slider_tab_cont .swiper.groupsilder .innerBox { }
+	.groupWrap .slider_tab_cont  .swiper.groupsilder .innerBox {/*width:315px; height:146px;*/  padding:16px 16px 53px; }
+	.groupWrap .slider_tab_cont  .swiper.groupsilder .innerBox .comp {display:block; position:absolute; top:0; left:0; width:150px; height:40px}
+	.groupWrap .slider_tab_cont  .swiper.groupsilder .innerBox .ing {font-size: 12px; color: #333; display:block; position:absolute; top:0; right:0; background-color:#f7f7f7; line-height: 24px; padding: 0 10px; border-radius: 24px; border:0;}
+	.groupWrap .slider_tab_cont  .swiper.groupsilder .innerBox h2 {
+		width:100%; font-size:14px; line-height: 1.33; padding-top:38px;
+		overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+	}
+	.groupWrap .slider_tab_cont  .swiper.groupsilder .innerBox a {display:block; position:absolute; bottom:-40px; left:inherit; right:0;  font-size:13px; font-weight:700; color: #333;}
+	.groupWrap .slider_tab_cont  .swiper.groupsilder .innerBox a:after{content:""; display:inline-block; vertical-align:-2px; width:14px; height:14px; background:url(/resource/images/main/ic-quickgo.svg) no-repeat center; margin-left:5px; opacity:.5}
+
+	.groupWrap .swiper.groupsilder .swiper-button-prev, .groupWrap .swiper.groupsilder .swiper-button-next {
+		display: none;
+	}
+	.recruitmentSlide .swiper.recruitsilder .swiper-button-prev, .recruitmentSlide .swiper.recruitsilder .swiper-button-next {
+		display: none;
+	}
+	.recruitmentSlide .recruitsilder .innerBox h5 {height: 46px;}
+	.recruitmentSlide h3 {margin-bottom: 24px;}
+
+
+	/*************************************/
+	/* 공통 */
+	/*************************************/
+	.container.sub {width:100%}
+	.container.view {padding-top:120px; width: calc(100% - 80px);}
+
+	.titleArea {padding:120px 0 80px; margin:0 60px}
+	.titleArea p {font-size: 16px;}
+	.titleArea h2 {font-size:22px; line-height: 1.27; letter-spacing: -0.44px;}
+	.titleArea h2 span {font-size:22px; letter-spacing: -0.44px;}
+	/*.titleArea h2 span.emphasis br {display:block}*/
+	.titleArea h2 span.emphasis.no {display:initial}
+	.titleArea.type1{padding:160px 0 79px}
+
+	.titleArea.type4 {padding:56px 0 24px }
+	.titleArea.type4 h3 span {font-size:22px; letter-spacing: -0.44px;}
+	.titleArea.type4 p {font-size:18px; margin:24px 0 56px}
+	.titleArea.type4 p span {display:block}
+
+	.btnArea a {display:block}
+	.btnArea a + a {margin:10px 0 0 0}
+
+	/*************************************/
+	/* MOBILE MENU */
+	/*************************************/
+	.dim {/*isplay: none;*/ width:100%; height:100vh; background-color:#fff; position:fixed; top:0; left:0; right:0; z-index:1000; padding:80px 20px}
+	.m-menu {}
+	.m-menu li {}
+	.m-menu li.separate {position:relative; border-top:1px solid #ccc; margin-top:10px; padding-top:8px}
+	.m-menu li.toggle {position:relative; border-top:1px solid #ccc; margin-top:10px; padding-top:8px}
+	.m-menu li.toggle > a {padding:16px 0;}
+	.m-menu li.toggle > a:after {content:''; display:block; width:20px; height:20px; background:url(/resource/images/common/faq_arrow_off.svg) no-repeat center; position:absolute; top:27px; right:20px}
+	.m-menu li.toggle > a.on:after {background:url(/resource/images/common/faq_arrow_on.svg) no-repeat center;}
+	.m-menu li.toggle ul {display:none}
+	.m-menu li a {font-size: 20px;  letter-spacing: -0.4px; font-weight:800; display:block; padding:16px 0; color:#000}
+	.m-menu li li {}
+	.m-menu li li a {font-size: 16px; font-weight: 500; letter-spacing: -0.32px; padding:8px 16px}
+
+	header.main.on nav,header.sub.on nav {position:fixed}
+
+	/*************************************/
+	/* 채용공고 */
+	/*************************************/
+
+	header.sub nav {align-items: center; padding: 0 20px 0; height:56px; box-shadow:none}
+
+	.employIngWrap .content {min-height:initial }
+
+	.searchSubWrap {height:inherit; border-radius:0; padding: 24px 20px 60px; border-top:1px solid #eaeaea; border-bottom: 1px solid #eaeaea;  background-color: #fff;  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.1);}
+	.searchSubWrap h3 {font-size: 20px;  letter-spacing: -0.4px; position:initial}
+	.searchSubWrap h3:before {width:24px; height:24px; background-size:24px auto; vertical-align: -5px; margin-right:5px;}
+
+	.searchSubWrap ul {width:100%; margin-top:16px;}
+	.searchSubWrap ul li	{padding:0 10px; border-radius: 26px; border: solid 1px #d9d9d9;}
+	.searchSubWrap ul li span {font-size: 14px;  letter-spacing: -0.28px; vertical-align:-2px }
+	.searchSubWrap select {font-size: 14px; height: 36px; padding: 0 20px 0 5px; background-size:14px auto; }
+	.searchSubWrap ul li select, .searchSubWrap ul li input {width: calc(100% - 60px);}
+	.searchSubWrap input {font-size: 14px; height: 36px;  }
+	.searchSubWrap ul li:last-child {flex: 0 1 94%;}
+
+	button.submit {width:36px; height:36px; right: 20px; bottom:66px; background-size:18px auto}
+	.searchSubWrap button.reset {position:absolute; bottom:20px; left:20px; margin-left: 0; font-size: 14px;}
+	.searchSubWrap button.reset:before {width:18px; height:18px; background-size:18px auto}
+
+	.employIngWrap {margin-top:56px}
+	.employIngWrap .content {width: calc(100% - 40px); margin:0 auto}
+	.employIngWrap .aside {display:none}
+	.employIngWrap .content .ingTit span.total,
+	.employIngWrap .content .ingTit span.total em {font-size: 16px; letter-spacing: -0.32px;}
+
+	.employIngWrap .employment .ebox {padding:48px 16px 16px}
+	.employIngWrap .employment .ebox p {position:initial}
+	.employIngWrap .employment .ebox .d-day {height: 24px; line-height: 22px; padding:0 10px; border-radius: 20px; font-size: 14px;}
+	.employIngWrap .employment .ebox .d-day:after {display:none !important}
+	.employIngWrap .employment .ebox h4 {font-size: 18px; letter-spacing: -0.36px; width: 100%;}
+	.employIngWrap .employment .ebox p .date {font-size:14px}
+
+	.employIngWrap .employment .ebox.no-result {padding:56px 16px}
+
+	.tag {margin:8px 0 45px}
+	.tag span {font-size:12px}
+	button.share, button.share-copylink {position:static; width:30px; height:30px; background-size:30px auto;  bottom:16px; right:16px}
+
+	.careersViewWrap .detail dt .detail-title h2 {font-size: 24px;}
+	.careersViewWrap .detail dt .detail-title .item .elink {font-size:16px}
+	.careersViewWrap .detail dt .detail-title .item .elink span {display:none}
+	.careersViewWrap .detail dt .detail-title .item .date {font-size:16px}
+	.opt li {font-size: 16px;}
+
+	.careersViewWrap .detail dt .detail-title .item:last-child {width: 150px;}
+	.careersViewWrap .detail dt .detail-title.type1 {margin: 10px 0 20px;}
+	.careersViewWrap .detail dt .detail-title.type1 .item:last-child {width: 300px; height:30px}
+	.careersViewWrap .detail dt .detail-title .item .d-day {width:initial; font-size:14px; line-height:28px; height: 30px; margin-left:10px;}
+	.careersViewWrap .detail dt .detail-title .item .d-day:after {display:none}
+
+	.interviewWrap.type1 {width:100%; margin:50px auto;}
+	.interviewWrap.type1 .swiper.intersilder .innerBox {width: 356px; height: 230px}
+	.interviewWrap h4 {font-size: 24px; letter-spacing: -0.48px;}
+
+	/*************************************/
+	/* FAQ */
+	/*************************************/
+	.searchFaqWrap, .faqList {width:calc(100% - 60px); margin:0 auto}
+
+	.searchFaqWrap {
+		height: 60px;
+		padding:10px 14px 16px;
+		border-radius: 10px;
+		box-shadow: 0 8px 8px -2px rgba(0, 0, 0, 0.1);
+	}
+	.searchFaqWrap .ic_search {width:20px; height:20px; background-size:20px auto; margin-right:5px;}
+	.searchFaqWrap .ic_search_input {border:1px solid #d9d9d9; padding:11px 10px; border-radius: 26px; font-size:14px; height:36px; width:calc(100% - 80px) }
+
+	.searchFaqWrap button.submit {transform: translateY(-60%);}
+
+	.faqList .tabs {margin:24px 0 0 10px}
+	.faqList .tabs li.active {color:#ed1b23; border-color:#ed1b23}
+	.faqList .tabs li {padding-bottom:5px; font-size:16px; font-weight: 800; margin-right:16px}
+
+	.faqList .fbox {
+		position:relative; width:100%; box-sizing:border-box;
+		padding: 16px 16px; border-radius: 10px; border: solid 1px #d9d9d9; margin-top:20px
+	}
+	.faqList .fbox .ioc {top:20px; left:16px; width:24px; height:24px; line-height:24px; font-size:14px; }
+	.faqList .fbox h3.enquiry {font-size: 16px; padding:5px 30px; font-weight:800;}	
+	.faqList .fbox h3.enquiry:after {width:18px; height:12px;  margin-top:-6px; transition: all .4s; background-size:18px auto} 
+
+	.faqList .fbox p.answer {font-size: 14px; line-height: 1.43; letter-spacing: -0.28px;  padding: 16px; }
+
+	.inquirybox {
+		flex-wrap: wrap; justify-content: space-between; height: 165px; padding: 16px 30px 24px; box-sizing:border-box;
+		margin:64px 0 32px;
+	}
+	button.inquiry {height: 56px; padding:13px 69px; border-radius: 10px; border: solid 1px #000; margin: 16px 0 0; font-size:20px; color:#000; background-size:35px auto; background-position:center left 18% }
+	button.inquiry:after {width:24px; height:24px; transform:translateY(-50%); right:18%; background-size:24px auto }
+
+	.inquirybox p {font-size:14px; color: #333;}
+	.inquirybox p span {font-size:16px}
+
+	.btnArea {margin:0 20px; text-align:center}
+	.btnArea .btn {height:50px; padding:10px 60px; border-radius: 60px; font-size:20px; text-align:center; letter-spacing: -0.4px;}
+	.btnArea .btn:after {width:24px; height:24px; background-size:24px auto; vertical-align: -4px; }
+
+	/*************************************/
+	/* 1:1문의 */
+	/*************************************/
+	.titleArea.type1 br {display:block}
+	.titleArea.type1 h2 span.emphasis {display:initial}
+
+
+	.inquiryListWrap {border-color:#eaeaea; padding:20px 0 32px}
+	.inquiryListWrap .inquiryList {margin:24px auto; width:calc(100% - 40px)}
+	.inquiryListWrap .inquiryList dt {font-size: 16px; letter-spacing: -0.32px; line-height:36px; }
+	.inquiryListWrap .inquiryList  dd input, .inquiryListWrap .inquiryList  dd select {font-size:14px; letter-spacing: -0.28px; padding:0 10px }
+	.inquiryListWrap .inquiryList dd p {font-size: 14px; color: #888; letter-spacing: -0.28px; margin-top:0;}
+	.inquiryListWrap .inquiryList .consent .terms-desc p {
+		margin-top: 15px;
+		font-size: 16px;
+	}
+	.inquiryListWrap .inquiryList .consent .terms-desc table tbody td {
+		padding: 10px;
+	}
+	.cont-form {display:flex; flex-wrap: wrap;}
+	.cont-form .item {width: calc(100%); margin-bottom:8px}
+	.cont-form .item.type1 input {width: calc(100% - 28px);}
+	.cont-form .item .tx {font-size:16px}
+
+	.c-deatails {padding:10px; height:180px}
+	.c-deatails textarea {height:160px; font-size:14px}
+
+	.consent label {font-size: 16px; letter-spacing: -0.32px; padding-left: 26px;}
+	.consent label span {font-size: 14px; letter-spacing: -0.28px;}
+	.consent label:before {padding:9px}
+	.consent input:checked + label:after {top: 0; left: 6px;}
+	.btnArea.type1 {margin-bottom:72px}
+	.btnArea .obtn {width:154px; height:48px; font-size: 16px;}
+
+	/*************************************/
+	/* KT 라이프 */
+	/*************************************/
+	.life-header {justify-content: space-between;}
+	.life-header .item:first-child {flex-grow: 1;}
+	.life-header .cate {display:inline-block; font-size: 16px; letter-spacing: -0.32px; color: #000;}
+	.life-header .cate:after {content:''; display:inline-block; vertical-align:-2px; width:16px; height:16px; background:url(/resource/images/main/ep_arrow-right.svg) no-repeat center; background-size:16px auto}
+	.life-header .life-logo {margin-right:0; vertical-align: top;}
+	.life-header .life-logo.type1 {width:23px; height:23px; background-size:auto 16px;}
+	.life-header .life-logo.type2 {width:40px; height:22px; background-size:auto 16px;}
+	.life-header .life-logo.type3 {width:65px; height:22px; background-size:auto 16px;}
+	.life-header .life-logo.type4 {width:67px; height:22px; background-size:auto 16px;}
+	.life-header .life-logo.type5 {width:57px; height:22px; background-size:auto 16px;}
+	.life-header .life-logo.type6 {width:72px; height:22px; background-size:auto 14px;}
+	.life-header .life-logo.type7 {width:72px; height:22px; background-size:auto 14px;}
+	.life-header .life-logo.type8 {width:72px; height:22px; background-size:auto 14px;}
+
+	.life-header .elink {font-size: 13px; letter-spacing: -0.26px; color:#333;  }
+	.life-header .elink:after {opacity:.5; vertical-align:-2px}
+	.life-header .elink span {display:none}
+
+	.titleArea.type2 h2 br, .titleArea.type3 h2 br {display:block}
+	.titleArea.type3 h2 br, .titleArea.type3 h2 span.stit br {display:none}
+
+	.lifeListWrap {width:calc(100% - 40px); margin:0 auto; border-top:1px solid #eaeaea;}
+	.lifeListWrap .item {flex: 1 1 100%; padding:24px 72px 24px 8px; border-bottom: 1px solid #eaeaea;}
+	.lifeListWrap .item:after {width:40px; height:40px; top:50%; bottom:inherit; right:8px; transform:translateY(-50%)}
+	.lifeListWrap .item.type1:after,
+	.lifeListWrap .item.type2:after,
+	.lifeListWrap .item.type3:after,
+	.lifeListWrap .item.type4:after,
+	.lifeListWrap .item.type5:after,
+	.lifeListWrap .item.type6:after,
+	.lifeListWrap .item.type7:after,
+	.lifeListWrap .item.type8:after,
+	.lifeListWrap .item.type9:after,
+	.lifeListWrap .item.type10:after,
+	.lifeListWrap .item.type11:after,
+	.lifeListWrap .item.type12:after,
+	.lifeListWrap .item.type13:after,
+	.lifeListWrap .item.type14:after,
+	.lifeListWrap .item.type15:after,
+	.lifeListWrap .item.type16:after,
+	.lifeListWrap .item.type17:after {background-size:40px auto}
+
+	.lifeListWrap .item.nocont:after {right: 8px;}
+	.lifeListWrap .item h3 {font-size: 18px; letter-spacing: -0.36px; margin-bottom: 4px; font-weight:800}
+	.lifeListWrap .item.nocont h3 br {display:none}
+	.lifeListWrap .item li {font-size:14px; padding:2px 0}
+	.lifeListWrap .item.noline {border-bottom: 1px solid #eaeaea;}
+
+	.recruitmentSlide .recruitsilder, .recruitmentSlide h3 {width: calc(100% - 40px);}
+	.recruitmentSlide {padding:56px 0 87px}
+	.recruitmentSlide h3 {font-size:24px; letter-spacing: -0.48px; color: #000;}
+	.recruitmentSlide .recruitsilder .innerBox {padding: 16px;}
+	.recruitmentSlide .recruitsilder .innerBox h4, .recruitmentSlide .recruitsilder .innerBox h5 {font-size: 16px; font-weight:800}
+	.recruitmentSlide .recruitsilder .innerBox .d-day, .recruitmentSlide .recruitsilder .innerBox .date {font-size:15px;}
+	.recruitmentSlide .recruitsilder .innerBox .d-day:after {opacity: 0.2; background-color: #000;}
+
+	.container.sub.life {width: calc(100% - 100px);}
+	.titleArea.type3 {padding:120px 0 60px; margin:0}
+	.titleArea.type3 h2 {font-size:22px}
+	.life-header .cate.type1 {font-size: 16px; margin-top: 0;}
+	.life-header .cate.type1:after {display:none}
+	.titleArea h2 span.stit {font-size:16px;  letter-spacing: -0.32px; margin-top:16px; line-height:18px; display: block; }
+
+	.lifeViewWrap .itemWrap {margin-bottom:40px}
+	.lifeViewWrap .itemWrap.type1:after, .lifeViewWrap .itemWrap.type2:after {height:115px}
+	.lifeViewWrap .itemWrap .item .img {height: 232px;}
+	.lifeViewWrap .itemWrap .item.text {padding:5%;}
+	.lifeViewWrap .itemWrap .item.text h3 {font-size: 20px}
+	.lifeViewWrap .itemWrap .item.text p {font-size: 16px; margin: 18px 0 40px;}
+	.lifeViewWrap .itemWrap .item.text ul li {font-size: 14px}
+
+	.companySlide {margin-top:96px}
+	.companySlide .companysilder, .companySlide h3 {width: calc(100%);}
+	/*.companySlide .companysilder .innerBox {width:94px;height: 94px}*/
+	.companySlide h3 {font-size: 22px; line-height: 1.27; letter-spacing: -0.44px;}
+	.companySlide h3 br {display:block}
+	.companySlide p {font-size: 15px; line-height: 1.4; letter-spacing: -0.3px; margin: 16px 0 40px;}
+	.companySlide .swiper.companysilder .swiper-pagination {width: calc(100%); margin: 36px 40px 5px 0;}
+
+	.btnArea.type3 {text-align:center; margin-bottom:40px}
+
+	/*************************************/
+	/* kt 인터뷰 */
+	/*************************************/
+	.interviewListWrap {width:calc(100% - 40px); margin:0 auto}
+	.interviewListWrap .tablist {height:inherit; box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.1); border:1px solid #eaeaea; border-radius: 16px; background-color: #fff; margin-bottom:47px}
+	.interviewListWrap .tabs {padding: 0 20px; justify-content: flex-start; margin:0 }
+	.interviewListWrap .tabs li {font-size: 14px; font-weight:700; letter-spacing: -0.32px; box-sizing: border-box; padding:0 8px}
+	.interviewListWrap .tabs li.active {border:0}
+	.interviewListWrap .tabs li span {display:inline-block; line-height:41px;}
+	.interviewListWrap .tabs li.active span {color:#ed1b23; border-bottom:2px solid #ed1b23}
+
+	.grid-sizer, .grid-item {width:calc((100% / 2) - 25px);}
+	.gutter-sizer {width:50px}
+	.interviewListWrap .grid-item .text {margin: 10px 0 60px;}
+	.interviewListWrap .grid-item .text h4 {font-size: 18px; font-weight:700; margin-bottom:0}
+	.interviewListWrap .grid-item .text span {font-size:13px}
+
+
+	.titleArea.type5 {padding:50px 60px 40px; margin:0; text-align:left; border-bottom:1px solid #eaeaea;}
+	.titleArea.type5 h2 span.emphasis {font-size:30px}
+	.titleArea.type5 p {font-size:16px;margin:10px 0 0}
+	.titleArea.type5 p span.company, .titleArea.type5 p span.job {padding-right:8px;}
+	.titleArea.type5 p span.company:after, .titleArea.type5 p span.job:after  {height: 14px; opacity: 0.2; margin-left: 8px;}
+
+	.interviewDetailWrap {padding:40px 0}
+	.interviewDetailWrap dl {flex-direction: column;}
+	.interviewDetailWrap dl dt {font-size:24px; width:100%; padding:20px 0}
+	.interviewDetailWrap dl dd .qbox p {padding-left: 45px; margin-bottom: 40px;}
+
+
+	/*************************************/
+	/* KT 비전 */
+	/*************************************/
+	.container.sub-img {padding-top:56px;}
+
+	.imgBarArea {height:173px;}
+	.visionViewWrap {width:calc(100% - 100px); margin:0 auto 100px}
+	.visionViewWrap .itemWrap {margin-bottom:40px}
+	.visionViewWrap .itemWrap .item .img {height:210px}
+	.visionViewWrap .itemWrap.type1 .item.text {padding:3% 0 3% 5%}
+	.visionViewWrap .itemWrap.type2 .item.text {padding:3% 5% 3% 0}
+	.visionViewWrap .itemWrap .item.text h3 {font-size: 20px; letter-spacing: -0.4px;}
+	.visionViewWrap .itemWrap .item.text h4 {font-size: 16px; letter-spacing: -0.32px; line-height: 1.38; margin:16px 0 8px}
+	.visionViewWrap .itemWrap .item.text p { font-size: 14px; letter-spacing: -0.28px; color:#000}
+	.visionViewWrap .itemWrap .item.text p span {display:block}
+
+
+	/*************************************/
+	/* 개인정보처리방침 */
+	/*************************************/
+	.titleArea.type6 {padding: 156px 0 60px;}
+	.titleArea.type6 h2 {font-size: 30px;}
+	.privatePolicyWrap dt {padding: 50px 0 40px;}
+	.privatePolicyWrap dt h2 {font-size: 24px;}
+	.privatePolicyWrap dt .item select {font-size:14px; height:40px; width:150px}
+	.privatePolicyWrap dd {padding:30px}
+
+	/* 2023-02-15 개인정보처리방침 */
+	.private-policy-banner .inner {
+		padding: 15px 0;
+		width: calc(100% - 10%);
+	}
+
+	.private-policy-banner {
+		margin-bottom: -100px;
+	}
+	.private-policy-banner + .titleArea.type6 {
+		margin-top: 100px;
+	}
+	.private-change-record-list {
+	}
+	.private-change-record-list .private-change-record-item {
+		margin: 0 60px;
+	}
+	.private-change-record-list .private-change-record-item a {
+		padding: 20px 0;
+	}
+	.private-change-record-list .private-change-record-item .new {
+		font-size: 11px;
+		margin-bottom: 3px;
+	}
+	.private-change-record-list .private-change-record-item .tit {
+		font-size: 16px;
+		margin-top: 10px;
+	}
+	.private-change-record-list .private-change-record-item .date {
+		font-size: 16px;
+	}
+
+	.private-date {
+	}
+	.private-tit {
+		margin-bottom: -40px !important;
+	}
+
+	/*************************************/
+	/* footer */
+	/*************************************/
+	footer {padding: 60px 40px;}
+}
+
+/********************************************************************************************************************/
+												/* 해상도 768이하 */
+/********************************************************************************************************************/
+
+@media (max-width: 768px) {
+
+	/* .pagination {right:23%; }	*/
+
+	/*************************************/
+	/* main */
+	/*************************************/
+	header.main .swiper.msilder1 .text {position:absolute; top:80px; left:20px}
+	header.main .swiper.msilder1 .text h2 {font-size:20px; line-height:26px; letter-spacing: -0.32px; color:#fff;  font-weight:300; }
+	header.main .swiper.msilder1 .text h2 span {font-size:20px; letter-spacing: -0.4px; color:#fff; display:block; margin:5px 0 5px;}
+
+	/*************************************/
+	/* KT 라이프 */
+	/*************************************/
+	.container.sub.life {width: calc(100%);}
+	.titleArea.type3 {padding:120px 20px 60px;}
+	.titleArea.type3 h2 br, .titleArea.type3 h2 span.stit br {display: block;	}
+
+	.lifeViewWrap .itemWrap {margin-bottom:40px; }
+	.lifeViewWrap .itemWrap.type2 {flex-direction: column-reverse; justify-content: flex-start;}
+	.lifeViewWrap .itemWrap.type2:before {content:''; display:block; clear:both}
+	.lifeViewWrap .itemWrap.type2 .item .img {margin-left:80px}
+
+	.lifeViewWrap .itemWrap .item {width:calc(100% - 80px); padding-bottom:0;}
+	.lifeViewWrap .itemWrap.type1:after, .lifeViewWrap .itemWrap.type2:after {width:calc(100% - 80px); height:50%; bottom:17%}
+
+	.lifeViewWrap .itemWrap .item .img {height:363px; width: 100%;}
+	.lifeViewWrap .itemWrap .item.text {padding:5%; padding-left:20%; box-sizing:border-box}
+	.lifeViewWrap .itemWrap .item.text h3 {font-size: 20px}
+	.lifeViewWrap .itemWrap .item.text p {font-size: 16px; font-weight:700; margin: 18px 0 32px;}
+	.lifeViewWrap .itemWrap .item.text ul li {font-size: 14px;  line-height: 1.43;  letter-spacing: -0.28px; padding: 2px 0 2px 8px;}
+
+	.companySlide {margin-top:96px}
+	.companySlide .companysilder, .companySlide h3 {width: calc(100% - 40px);}
+	/*.companySlide .companysilder .innerBox {width:186px; height:186px;}*/
+	.companySlide h3 {font-size: 22px; line-height: 1.27; letter-spacing: -0.44px;}
+	.companySlide h3 br {display:block}
+	.companySlide p {font-size: 15px; line-height: 1.4; letter-spacing: -0.3px; margin: 16px 0 40px;}
+	.companySlide .swiper.companysilder .swiper-pagination {width:calc(100%); margin: 36px 40px 5px 0;}
+
+	/*************************************/
+	/* 채용공고 */
+	/*************************************/
+	.container.view {width:100%; padding-top:56px; margin-bottom:0}
+	.careersViewWrap .detail dt {position:relative; padding:24px 20px; box-sizing:border-box; box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.1); border-top: solid 1px #eaeaea; border-bottom: solid 1px #eaeaea; background-color: #fff;}
+	.careersViewWrap .detail dt .detail-title {margin-top:30px}
+	.careersViewWrap .detail dt .detail-title .item:last-child {width:100%; text-align:right}
+
+	.careersViewWrap .detail dt .detail-title.type1 {}
+	.careersViewWrap .detail dt .detail-title.type1 {margin: 10px 0 20px;}
+
+	.careersViewWrap .detail dt .detail-title .item {padding: 5px 0;}
+	.careersViewWrap .detail dt .detail-title h2 {font-size: 18px; letter-spacing: -0.36px; font-weight:800}
+	.careersViewWrap .detail dt .detail-title.type1 {margin:0;}
+
+	.careersViewWrap .detail dt .detail-title .item .elink {display:none}
+	.careersViewWrap .detail dt .detail-title .item .date {font-size: 14px;}
+
+	.careersViewWrap .detail dd .detail-title.type1 button.share, .careersViewWrap .detail dd .detail-title.type1 button.share-copylink {position:static}
+	.careersViewWrap .detail dd .detail-subject {padding: 56px 0;}
+	.careersViewWrap .detail dd .detail-subject {width: calc(100% - 40px);}
+
+	.opt li {padding:0 4px}
+	.opt li:after {display:none}
+	.opt li span {display:block; line-height:22px; padding: 0 7px; border-radius: 20px; background-color: #f7f7f7; font-size: 12px; color:#666;}
+
+	.careersViewWrap .detail dt .detail-title .item .d-day {position:absolute; top:24px; left:20px; margin-left:0; line-height: 22px; height:24px; padding: 0 10px; font-size:14px}
+	.careersViewWrap .detail dt .detail-title .item .d-day:after {display:none}
+
+	.interviewWrap.type1 {width: calc(100% - 40px); margin:50px auto;}
+	.interviewWrap.type1 .swiper.intersilder .innerBox {width:100%; height:400px}
+	.interviewWrap h4 {font-size: 24px; letter-spacing: -0.48px;}
+	.interviewWrap .swiper.intersilder .text {padding:24px;}
+	.interviewWrap .swiper.intersilder .innerBox:hover img {transform:none;}
+
+	.recruitmentSlide.type1 {width:100%; box-sizing:border-box; padding:56px 20px 86px; margin:80px 0 0; background-color: #f7f7f7;}
+
+}
+
+/********************************************************************************************************************/
+												/* 해상도 640이하 */
+/********************************************************************************************************************/
+
+@media (max-width: 640px) {
+
+	#backtotop {bottom: 100px; width:40px; height:40px; background-size:40px auto}
+	.burger.over .strip div {background: #000;}
+
+	/*************************************/
+	/* main */
+	/*************************************/
+	.titleArea {margin:0 20px}
+	.titleArea h2 span.emphasis br {display:block}
+	.titleArea h2 span.emphasis.no {display:block}
+
+	/*************************************/
+	/* 채용공고 */
+	/*************************************/
+	.interviewWrap h4 span, .recruitmentSlide.type1 h3 span {display:none}
+	.interviewWrap.type1 .swiper.intersilder .innerBox {width:100%; height:200px}
+	.interviewWrap .swiper.intersilder .text span.company {font-size: 14px}
+	.interviewWrap .swiper.intersilder .text span {font-size: 16px}
+
+	.searchSubWrap ul li:last-child {flex: 0 1 92%;}
+	.employIngWrap .employment .ebox h4 {height:52px}
+	.employIngWrap .employment .ebox .d-day {position:absolute; top:16px; left:16px; margin-left:0;}
+
+	.careersViewWrap .detail dt .detail-title.type1 .item:last-child {width:1px;}
+	.careersViewWrap .detail dt .detail-title.type1 .item:last-child button.share,
+	.careersViewWrap .detail dt .detail-title.type1 .item:last-child button.share-copylink {position:absolute; bottom:inherit; top:24px; right:20px}
+
+
+	/*************************************/
+	/* FAQ */
+	/*************************************/
+	.searchFaqWrap, .faqList {width:calc(100% - 40px); margin:0 auto}
+
+	.inquirybox p {width:100%;}
+
+
+	button.inquiry {width:100%; height: 56px; padding:13px 69px; border-radius: 10px; border: solid 1px #000; margin: 16px 0 0; font-size:20px; color:#000; background-size:35px auto; background-position:center left 30% }
+	button.inquiry:after {width:24px; height:24px; transform:translateY(-50%); right:28%; background-size:24px auto }
+
+	/*************************************/
+	/* KT 라이프 */
+	/*************************************/
+	/*.recruitmentSlide .swiper.recruitsilder .swiper-pagination {width:calc(100% - 40px); margin: 24px 0 5px 0;}*/
+	.recruitmentSlide h3 br {display:block}
+
+	/*************************************/
+	/* KT 인터뷰 */
+	/*************************************/
+	.interviewListWrap {width: calc(100%);}
+	.interviewListWrap .tablist {border-radius:0; overflow-x:scroll}
+	.interviewListWrap .tabs {display:table; width:100%; box-sizing:border-box; padding: 0 20px; margin:0; }
+	.interviewListWrap .tabs li {font-size: 16px; font-weight:700; letter-spacing: -0.32px; box-sizing: border-box; display:table-cell;  white-space: nowrap; padding:0 10px}
+	.interviewListWrap .tabs li.active {border:0}
+	.interviewListWrap .tabs li.active span {display:inline-block; line-height:41px; color:#ed1b23; border-bottom:2px solid #ed1b23}
+
+	.interviewListWrap .tab_container {width: calc(100% - 40px); margin:0 auto}	
+
+	.grid-sizer, .grid-item {width: calc(100%);}
+	.gutter-sizer {width:0}
+	.interviewListWrap .grid-item .text {margin:20px 0 32px}
+	.interviewListWrap .grid-item .text h4 { font-size:22px;  letter-spacing:-0.36px; margin-bottom:5px}
+	.interviewListWrap .grid-item .text span {font-size:16px;}
+
+	/***************** detail ********************/
+	.imgInterArea {height:188px}
+
+	.titleArea.type5 {padding: 24px 20px}
+	.titleArea.type5 h2 span.emphasis {font-size: 18px; letter-spacing: -0.36px;}
+	.titleArea.type5 p {font-size: 13px; margin: 10px 0 0; letter-spacing: -0.26px;}
+
+	.interviewDetailWrap {width: calc(100% - 40px); padding:0}
+	.interviewDetailWrap dl dt {font-size: 18px; font-weight:800; padding:24px 0 16px}
+	.interviewDetailWrap dl dd .qbox h4 {font-size: 16px; letter-spacing: -0.32px; padding-left: 30px;}
+	.interviewDetailWrap dl dd .qbox h4:before {width:16px; height:16px; background-size:16px auto}
+	.interviewDetailWrap dl dd .qbox h4:after {width:16px; height: 10px; top: 10px;}
+	.interviewDetailWrap dl dd .qbox p {font-size: 14px; line-height: 1.43; letter-spacing: -0.28px; padding-left: 30px; margin-bottom: 24px;}
+
+	.imgWrap {width:100%; margin-top:0}
+	.container.sub-img .recruitmentSlide {}
+
+	/*************************************/
+	/* KT 비전 */
+	/*************************************/
+	.container.sub-img {margin-bottom:78px}
+	.imgBarArea {height:140px; background-size:cover}
+	.visionViewWrap {width:calc(100%); margin:0 auto 100px}
+	.visionViewWrap .itemWrap {margin-bottom:56px}
+	.visionViewWrap .itemWrap.type1 {flex-direction: column;}
+	.visionViewWrap .itemWrap.type2 {flex-direction: column-reverse;}
+	.visionViewWrap .itemWrap .item {width: calc(100% - 20px);}
+	.visionViewWrap .itemWrap.type2 .item {margin-left:20px}
+	.visionViewWrap .itemWrap .item .img {height:360px}
+	.visionViewWrap .itemWrap.type1 .item.text {padding:24px 20px 0; text-align:right; width:initial}
+	.visionViewWrap .itemWrap.type2 .item.text {padding:24px 0 0; text-align:left; width:initial}
+	.visionViewWrap .itemWrap .item.text h3 {font-size: 20px; letter-spacing: -0.4px;}
+	.visionViewWrap .itemWrap .item.text h4 {font-size: 16px; letter-spacing: -0.32px; line-height: 1.38; margin:16px 0}
+	.visionViewWrap .itemWrap .item.text p { font-size: 14px; letter-spacing: -0.28px; color:#000}
+	.visionViewWrap .itemWrap .item.text p span {display:block}
+
+
+	/*************************************/
+	/* 공통 */
+	/*************************************/
+	.btnArea .btn.type1 {display:inline-block}
+
+	/*************************************/
+	/* 개인정보처리방침 */
+	/*************************************/
+
+	.titleArea.type6 {padding: 120px 0 79px; text-align:left; border-color:#eaeaea}
+	.titleArea.type6 h2 {font-size: 16px;}
+	.privatePolicyWrap {width:calc(100% - 40px)}
+	.privatePolicyWrap dt {padding:24px 0 40px; flex-direction: column;}
+	.privatePolicyWrap dt .item {width:100%}
+	.privatePolicyWrap dt .item:last-child {margin-top:16px}
+	.privatePolicyWrap dt h2 {font-size: 22px;}
+	.privatePolicyWrap dt h2 span {display:block; font-weight:300}
+	.privatePolicyWrap dt .item select {height:36px; width:60%}
+
+	.privatePolicyWrap dd {padding:30px}
+	.privatePolicyWrap dd h3 {font-size:16px; letter-spacing: -0.32px; font-weight:800; margin-top: 20px;}
+	.privatePolicyWrap dd p {font-size:14px; letter-spacing: -0.32px; font-weight:700; margin-top: 10px;}
+	.privatePolicyWrap dd ul {margin-top:20px}
+	.privatePolicyWrap dd li {line-height: 1.43; letter-spacing: -0.28px;}
+	.privatePolicyWrap dd li li {padding:0 5px}
+
+
+	/* 2023-02-15 개인정보처리방침 */
+	.private-policy-banner + .titleArea.type6 {
+		margin-top: 100px;
+		padding-bottom: 20px;
+	}
+	/* .private-policy-banner + .container .titleArea {
+		padding: 40px 0 30px;
+	} */
+	.private-policy-banner .inner .private-policy-txt{
+		font-size: 13px;
+	}
+
+	.private-policy-banner .inner .private-link {
+		font-size: 12px;
+		font-weight: 900;
+	}
+
+	.private-change-record-list {
+	}
+	.private-change-record-list .private-change-record-item {
+		margin: 0 20px;
+	}
+	.private-change-record-list .private-change-record-item a {
+		padding: 20px 0;
+	}
+	.private-change-record-list .private-change-record-item .new {
+		font-size: 11px;
+		margin-bottom: 3px;
+	}
+	.private-change-record-list .private-change-record-item .tit {
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	.private-change-record-list .private-change-record-item .date {
+		font-size: 14px;
+		font-weight: 900;
+	}
+
+	.private-date {
+		font-size: 14px;
+	}
+	.private-tit {
+		font-size: 14px;
+		margin-bottom: -60px !important;
+	}
+
+	/*************************************/
+	/* footer */
+	/*************************************/
+	.container {margin-bottom:0;}
+	footer {padding: 20px 15px;}
+	footer .inner {padding-top:90px}
+	footer .inner div {right:inherit; top:41px; left:0}
+	footer .inner div button {width:inherit; font-size:12px}
+	footer .inner div button + button {margin:0 8px}
+	footer .inner li {color:#fff; font-size:12px; float:none; display:inline-block; line-height: 20px;}
+	footer .inner li.line {padding-left:0; display:block}
+	footer .inner li.line:before {display:none}
+	footer p {font-size:12px; color:#cfcfcf; margin-top:5px; opacity: 0.5;}
+	footer .inner div select {width:inherit;}
+}
+
+/********************************************************************************************************************/
+												/* 해상도 480 이하 */
+/********************************************************************************************************************/
+
+@media all and (max-width: 480px) {
+
+	.promotionBanner .bannerLink {font-size:12px}
+
+	/*************************************/
+	/* 메인 */
+	/*************************************/
+	header.main .swiper.msilder1 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {left: 0}
+	header.main .swiper.msilder1 .text {top: 77px; left: 20px;}
+	header.main .swiper.msilder1 .text h2 {font-size:20px; letter-spacing: -1px;}
+	header.main .swiper.msilder1 .text h2 span {font-size:20px; letter-spacing: -0.4px;}
+	header.main .swiper.msilder1 .text h2 span.imgT {width:140px; height:25px; background-size:140px auto}
+
+	.employmentWrap .employment .ebox {width:100%;}
+	.s-title span {display:block}
+
+	.lifeWrap .swiper.lifesilder .innerBox {width:100%;}
+	/* .lifeWrap .swiper.lifesilder .innerBox .img {height: 280px} */
+	.lifeWrap .swiper.lifesilder .innerBox .text h2 {padding:16px 0 7px}
+
+	.groupWrap .slider_tab_cont .swiper.groupsilder .innerBox {width:100%; height: 149px}
+
+	.interviewWrap .swiper.intersilder .swiper-pagination,
+	.lifeWrap .swiper.lifesilder .swiper-pagination,
+	.groupWrap .slider_tab_cont .swiper.groupsilder .swiper-pagination,
+	.recruitmentSlide .swiper.recruitsilder .swiper-pagination {width: calc(100%); margin: 29px 40px 10px 0;}
+	.pagination {right: 0;bottom: 3px}
+
+
+	/*************************************/
+	/* 채용공고 */
+	/*************************************/
+	.searchSubWrap ul li span {letter-spacing: -1px; line-height:36px; vertical-align:0}
+	.searchSubWrap ul li:last-child {flex: 0 1 88%;}
+	.searchSubWrap select {padding: 0 12px 0 0; width: calc(100% - 28px);}
+	.searchSubWrap ul li:nth-child(3) select {width: calc(100% - 54px);}
+
+	.interviewWrap.type1 .swiper.intersilder .innerBox {height:260px}
+
+	/*************************************/
+	/* FAQ */
+	/*************************************/
+	button.inquiry {background-position:center left 30% }
+	button.inquiry:after {right:30%}
+	.btnArea .btn:after {right:35%}
+
+	/*************************************/
+	/* 1:1문의 */
+	/*************************************/
+	.inquiryListWrap .inquiryList.type1 {display:flex; flex-wrap: wrap;}
+	.inquiryListWrap .inquiryList.type1 dt, .inquiryListWrap .inquiryList.type1 dd {width:100%}
+
+	.captchaWrap {justify-content: space-between;}
+	.captchaWrap .capthcha {width: calc(100% - 174px); }
+	.capthcha-btn {display:flex; flex-wrap: wrap; align-content: space-between; }
+	.captchaWrap button {width:100%}
+	.captchaWrap button + button {margin-left:0; margin-top:5px}
+
+	.btnArea.type1 { }
+	.btnArea.type1 .obtn {width:calc((100% / 2) - 6px); }
+	.btnArea.type1 button + button {margin-left: 6px;}
+
+
+	/*************************************/
+	/* KT 인터뷰 */
+	/*************************************/
+	.interviewListWrap .tabs {}
+		.interviewListWrap .tabs li {font-size: 16px; }
+
+		.interviewListWrap .grid-item .text h4 { font-size:18px; font-weight:800}
+		.interviewListWrap .grid-item .text span {font-size:13px; letter-spacing: -0.26px;}
+
+	/*************************************/
+	/* KT 라이프 */
+	/*************************************/
+	.lifeViewWrap .itemWrap.type2 .item .img {margin-left:40px}
+	.lifeViewWrap .itemWrap .item {width:calc(100% - 40px);}
+	.lifeViewWrap .itemWrap.type1:after, .lifeViewWrap .itemWrap.type2:after {width:calc(100% - 40px); height:50%; bottom:18%;}
+
+	.lifeViewWrap .itemWrap .item .img {height:287px;}
+	.lifeViewWrap .itemWrap .item.text {padding:24px; padding-left:40px; }
+	.lifeViewWrap .itemWrap.type1 .item.text {margin-left: 40px;}
+
+	.companySlide p span {display:block}
+	.companySlide .companysilder .innerBox {width:133px; height:133px;}
+
+	/*************************************/
+	/* KT 비전 */
+	/*************************************/
+	.visionViewWrap .itemWrap .item .img {height:268px}
+
+
+	/*************************************/
+	/* 개인정보처리방침 */
+	/*************************************/
+	.privatePolicyWrap dd {padding:20px;}
+	.privatePolicyWrap dd li {padding:3px 0; font-size: 13px; letter-spacing: -0.66px; text-align: left;}
+	.privatePolicyWrap table thead th, .privatePolicyWrap dd table td {padding:10px; font-size:12px}
+	.privatePolicyWrap dd li li {padding:0}
+
+	/* 2023-02-15 개인정보처리방침 */
+}
+
+@media all and (max-width: 414px) {
+
+	/*************************************/
+	/* 메인 */
+	/*************************************/
+	.groupWrap .slider_tab_cont .tabs li {font-size: 14px;}
+
+
+	/*************************************/
+	/* FAQ */
+	/*************************************/
+	button.inquiry {background-position:center left 20% }
+	button.inquiry:after {right:20%}
+	.btnArea .btn:after {right:23%}
+
+	/*************************************/
+	/* 채용공고 */
+	/*************************************/
+	.interviewWrap .swiper.intersilder .innerBox .text {padding:20px;}
+
+	/*************************************/
+	/* KT 라이프 */
+	/*************************************/
+	.lifeViewWrap .itemWrap .item .img {height: 218px;}
+	.lifeViewWrap .itemWrap.type1:after, .lifeViewWrap .itemWrap.type2:after {top: 33%; bottom:inherit; height:45%}
+	.companySlide .companysilder .innerBox {width:99px; height:99px;}
+
+	/*************************************/
+	/* KT 비전 */
+	/*************************************/
+	.visionViewWrap .itemWrap .item .img {height:230px}
+}
+
+@media all and (max-width: 376px) {
+
+	/*************************************/
+	/* 메인 */
+	/*************************************/
+	.promotionBanner .bannerLink {font-size:11px}
+
+	/*************************************/
+	/* KT 라이프 */
+	/*************************************/
+	.lifeListWrap .item.nocont h3 br {display:block}
+
+	/*************************************/
+	/* KT 비전 */
+	/*************************************/
+	.visionViewWrap .itemWrap .item .img {height:208px}
+	.visionViewWrap .itemWrap .item .img.type1,
+	.visionViewWrap .itemWrap .item .img.type2,
+	.visionViewWrap .itemWrap .item .img.type3,
+	.visionViewWrap .itemWrap .item .img.type4 {background-size:cover}
+
+}
+
+/********************************************************************************************************************/
+												/* 해상도 360 이하 */
+/********************************************************************************************************************/
+
+@media all and (max-width: 360px) {
+	/*************************************/
+	/* KT 라이프 */
+	/*************************************/
+	.companySlide .companysilder .innerBox {width:90px; height:90px;}
+
+	/*************************************/
+	/* 채용공고 */
+	/*************************************/
+	.interviewWrap.type1 .swiper.intersilder .innerBox {height:210px}
+}
+
+/********************************************************************************************************************/
+												/* 해상도 320 이하 */
+/********************************************************************************************************************/
+
+@media all and (max-width: 320px) {
+
+	/*************************************/
+	/* 메인 */
+	/*************************************/
+	.searchWrap h3 {font-size: 12px;}
+	.promotionBanner .bannerLink {width:calc(100% - 70px); line-height:12px}
+
+	/* .lifeWrap .swiper.lifesilder .innerBox .img {height: 185px}	 */
+	.groupWrap .slider_tab_cont .tabs li {font-size: 12px;}
+
+	/*************************************/
+	/* 채용공고 */
+	/*************************************/
+	.opt li {padding: 0 2px;}
+	.searchSubWrap ul li:last-child {flex: 0 1 84%;}
+
+	/*************************************/
+	/* footer */
+	/*************************************/
+	footer .inner div button {padding:0 4px}
+	footer .inner li {width:100%; padding:0}
+	footer .inner li:before {display:none}
+}
+
+/********************************************************************************************************************/
+												/* 해상도 280 이하 */
+/********************************************************************************************************************/
+@media all and (max-width: 280px) {
+
+	/*************************************/
+	/* KT 라이프 */
+	/*************************************/
+	.companySlide .companysilder .innerBox {width:68px; height:68px;}
+
+	/*************************************/
+	/* 채용공고 */
+	/*************************************/
+	.interviewWrap .swiper.intersilder .innerBox .text {padding: 10px;}
+}

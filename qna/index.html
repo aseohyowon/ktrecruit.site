@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="" />
+        <meta content="" property="og:title" />
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <meta name="description" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:url" content="" />
+        <meta name="format-detection" content="telephone=no" />
+
+        <title>KT 채용</title>
+
+        <link rel="stylesheet" href="/resource/css/reset.css" type="text/css" />
+        <link rel="stylesheet" href="/resource/js/plugin/swiper/swiper.min.css" type="text/css" />
+        <link rel="stylesheet" href="/resource/css/common.css" type="text/css" />
+        <link rel="stylesheet" href="/resource/css/responsive.css" type="text/css" />
+        <script src="/resource/js/jquery-3.6.1.min.js"></script>
+        <script src="/resource/js/plugin/swiper/swiper.min.js"></script>
+        <script src="/resource/js/common.js"></script>
+    </head>
+
+    <body>
+        <ul id="skipNav">
+            <li><a href="#content" title="본문 바로가기">본문 바로가기</a></li>
+            <li><a href="#gnb" title="주메뉴 바로가기">주메뉴 바로가기</a></li>
+            <li><a href="#footer" title="푸터 바로가기">푸터 바로가기</a></li>
+        </ul>
+
+        <div id="wrap">
+            <div class="dim">
+                <div class="m-menu">
+                    <ul>
+                        <li><a href="/careers">채용공고</a></li>
+                        <li><a href="/interview">KT 인:터뷰</a></li>
+                        <li><a href="/life">KT 라이프</a></li>
+                        <li><a href="/vision">KT 비전</a></li>
+                        <li class="toggle">
+                            <a href="#none">FAQ</a>
+                            <ul class="s-menu">
+                                <li><a href="/faq">FAQ</a></li>
+                                <li><a href="/qna">1:1 문의</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="https://kt.recruiter.co.kr/app/applicant/myPage/login" target="_blank"
+                                >지원결과확인</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <header class="sub">
+                <nav id="gnb">
+                    <div class="item">
+                        <a href="/"><h1 class="logo"></h1></a>
+                    </div>
+
+                    <div class="item">
+                        <ul class="gnb">
+                            <li><a href="/careers">채용공고</a></li>
+                            <li><a href="/interview">KT 인:터뷰</a></li>
+                            <li><a href="/life">KT 라이프</a></li>
+                            <li><a href="/vision">KT 비전</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <ul class="q-menu">
+                            <li><a href="/faq" class="faq">FAQ</a></li>
+                            <li>
+                                <a href="#none" class="my">MY</a>
+                                <ul class="d-menu">
+                                    <li>
+                                        <a href="https://kt.recruiter.co.kr/app/applicant/registResume" target="_blank"
+                                            >지원서 작성</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="https://kt.recruiter.co.kr/app/applicant/modifyResume" target="_blank"
+                                            >지원서 수정</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="https://kt.recruiter.co.kr/app/applicant/myPage/login" target="_blank"
+                                            >지원 결과 확인</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="burger" id="menu">
+                        <div class="strip burger-strip">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="container sub" id="content">
+                <article class="titleArea type1">
+                    <p>1:1 문의</p>
+                    <h2>
+                        <span>KT 그룹 채용</span> 관련하여 <br />궁금한 부분을
+                        <span class="emphasis no">1:1 문의로도 <br />확인해보세요</span>
+                    </h2>
+                </article>
+
+                <section class="inquiryListWrap">
+                    <dl class="inquiryList">
+                        <dt>이름</dt>
+                        <dd><input type="text" class="wp100" /></dd>
+                    </dl>
+                    <!--
+                    <dl class="inquiryList">
+					<dt>내/외국인</dt>
+					<dd>
+						<select class="wp100">
+							<option>내국인</option>
+						</select>
+					</dd> 
+				    </dl>
+                    -->
+                    <dl class="inquiryList">
+                        <dt>이메일</dt>
+                        <dd>
+                            <div class="cont-form">
+                                <div class="item type1"><input type="text" /><span class="tx">@</span></div>
+                                <div class="item"><input type="text" placeholder="직접입력" /></div>
+                                <div class="item">
+                                    <select required>
+                                        <option value="" disabled selected>메일선택</option>
+                                        <option>네이버</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <p>* 문의에 대한 답변을 회신받을 수 있는 본인의 이메일을 꼭 입력해주세요.</p>
+                        </dd>
+                    </dl>
+                    <dl class="inquiryList">
+                        <dt>구분</dt>
+                        <dd>
+                            <select required class="wp100">
+                                <option value="" disabled selected>문의하려는 항목을 선택하세요.</option>
+                                <option>1</option>
+                            </select>
+                        </dd>
+                    </dl>
+                    <dl class="inquiryList">
+                        <dt>제목</dt>
+                        <dd><input type="text" class="wp100" placeholder="NN자 이내로 입력하세요." /></dd>
+                    </dl>
+                    <dl class="inquiryList type1">
+                        <dt>문의내용</dt>
+                        <dd>
+                            <div class="c-deatails">
+                                <textarea placeholder="궁금하신 내용을 입력해주세요."></textarea>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl class="inquiryList type1">
+                        <dt>자동입력방지</dt>
+                        <dd>
+                            <div class="captchaWrap">
+                                <div class="capthcha">
+                                    <img src="/resource/images/common/captcha.png" alt="캡챠확인용이미지" />
+                                </div>
+                                <div class="capthcha-btn">
+                                    <button>다시받기</button>
+                                    <button>음성듣기</button>
+                                </div>
+                            </div>
+                            <input type="text" class="wp100" placeholder="이미지에 보이는 문자를 입력해 주세요." />
+                        </dd>
+                    </dl>
+                    <dl class="inquiryList type1">
+                        <dt></dt>
+                        <dd>
+                            <div class="consent">
+                                <input type="checkbox" id="chk1" /><label for="chk1"
+                                    >개인정보 수집 및 이용에 대해 동의합니다. (필수)</label
+                                >
+                                <div class="terms-desc">
+                                    <p>[개인정보 수집·이용 내역]</p>
+                                    <table cellpadding="0" cellspacing="0">
+                                        <colgroup>
+                                            <col style="width:30%">
+                                            <col style="width:30%">
+                                            <col>
+                                        </colgroup><thead>
+                                            <tr>
+                                                <th>항목</th>
+                                                <th>수집 목적</th>
+                                                <th>보유 기간</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>성명, 이메일</td>
+                                                <td>문의사항 응대</td>
+                                                <td>수집·이용 목적이 달성될 때까지</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <p>위와 같이 개인정보를 수집·이용하는데 동의를 거부할 권리가 있습니다.<br>다만, 동의를 거부할 경우 문의사항에 대한 응대를 받으실 수 없습니다.</p>
+                                <!-- 모바일에서 pc와 다르게 (br)줄바꿈 없이 가야하면 분리 -->
+                                <!-- <p class="pc">위와 같이 개인정보를 수집·이용하는데 동의를 거부할 권리가 있습니다.<br>다만, 동의를 거부할 경우 문의사항에 대한 응대를 받으실 수 없습니다.</p>
+                                <p class="mo">위와 같이 개인정보를 수집·이용하는데 동의를 거부할 권리가 있습니다. 다만, 동의를 거부할 경우 문의사항에 대한 응대를 받으실 수 없습니다.</p> -->
+                            </div>
+                        </dd>
+                    </dl>
+                </section>
+
+                <div class="btnArea type1">
+                    <button class="obtn">취소</button>
+                    <button class="obtn type1">제출하기</button>
+                </div>
+
+                <div id="backtotop">위로</div>
+            </div>
+
+            <footer id="footer">
+                <div class="inner">
+                    <h1 class="ft-logo"></h1>
+                    <ul>
+                        <li>(주)케이티 대표이사 구현모</li>
+                        <li>사업자등록번호 102-81-42945</li>
+                        <li class="line">13606 경기도 성남시 분당구 불정로 90 (정자동 206번지)</li>
+                    </ul>
+                    <div>
+                        <button>개인정보처리 취급방침</button>
+                        <button>KT.COM</button>
+                        <select>
+                            <option>KT 그룹사</option>
+                        </select>
+                    </div>
+                </div>
+                <p>Copyrightⓒ 2023 KT Corp. All rights reserved.</p>
+            </footer>
+        </div>
+    </body>
+</html>
